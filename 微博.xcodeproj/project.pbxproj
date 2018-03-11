@@ -18,6 +18,8 @@
 		445EAD3E204011A700C051B7 /* discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 445EAD3C204011A700C051B7 /* discover.storyboard */; };
 		445EAD41204011B900C051B7 /* Me.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 445EAD3F204011B900C051B7 /* Me.storyboard */; };
 		445EAD5120410CDE00C051B7 /* UIButton+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445EAD5020410CDE00C051B7 /* UIButton+Extention.swift */; };
+		44820D3B2054AE1100CEEC51 /* PopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44820D392054AE1100CEEC51 /* PopoverViewController.swift */; };
+		44820D3C2054AE1100CEEC51 /* PopoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44820D3A2054AE1100CEEC51 /* PopoverViewController.xib */; };
 		44E277F82030281000FBDE2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E277F72030281000FBDE2C /* AppDelegate.swift */; };
 		44E277FD2030281000FBDE2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44E277FB2030281000FBDE2C /* Main.storyboard */; };
 		44E277FF2030281000FBDE2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44E277FE2030281000FBDE2C /* Assets.xcassets */; };
@@ -25,6 +27,9 @@
 		44E2780D2030281100FBDE2C /* __Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E2780C2030281100FBDE2C /* __Tests.swift */; };
 		44E278182030281100FBDE2C /* __UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E278172030281100FBDE2C /* __UITests.swift */; };
 		44EF8AC1204397640065976E /* Null.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44EF8ABF204397640065976E /* Null.storyboard */; };
+		44EF8AC720469A7B0065976E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF8AC620469A7B0065976E /* BaseViewController.swift */; };
+		44EF8AC92046A0C00065976E /* UIBarbuttonItem+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF8AC82046A0C00065976E /* UIBarbuttonItem+Extention.swift */; };
+		44EF8ACB2046A7190065976E /* TitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EF8ACA2046A7190065976E /* TitleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +61,8 @@
 		445EAD3D204011A700C051B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "微博/Base.lproj/discover.storyboard"; sourceTree = "<group>"; };
 		445EAD40204011B900C051B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "微博/Base.lproj/Me.storyboard"; sourceTree = "<group>"; };
 		445EAD5020410CDE00C051B7 /* UIButton+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extention.swift"; sourceTree = "<group>"; };
+		44820D392054AE1100CEEC51 /* PopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverViewController.swift; sourceTree = "<group>"; };
+		44820D3A2054AE1100CEEC51 /* PopoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopoverViewController.xib; sourceTree = "<group>"; };
 		44E277F42030281000FBDE2C /* 微博.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "微博.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44E277F72030281000FBDE2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44E277FC2030281000FBDE2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -69,6 +76,9 @@
 		44E278172030281100FBDE2C /* __UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __UITests.swift; sourceTree = "<group>"; };
 		44E278192030281100FBDE2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44EF8AC0204397640065976E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "微博/Base.lproj/Null.storyboard"; sourceTree = "<group>"; };
+		44EF8AC620469A7B0065976E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		44EF8AC82046A0C00065976E /* UIBarbuttonItem+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarbuttonItem+Extention.swift"; sourceTree = "<group>"; };
+		44EF8ACA2046A7190065976E /* TitleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +109,11 @@
 		445EAD04203EA66800C051B7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				445EAD05203EA66800C051B7 /* 主要 */,
 				445EAD0D203EA66800C051B7 /* 首页 */,
 				445EAD0B203EA66800C051B7 /* 消息 */,
 				445EAD07203EA66800C051B7 /* 发现 */,
 				445EAD09203EA66800C051B7 /* 我的 */,
-				445EAD05203EA66800C051B7 /* 主要 */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -111,6 +121,7 @@
 		445EAD05203EA66800C051B7 /* 主要 */ = {
 			isa = PBXGroup;
 			children = (
+				44EF8AC520469A4C0065976E /* Visitor */,
 				445EAD14203EAF6A00C051B7 /* Resource */,
 				445EAD06203EA66800C051B7 /* MainTabBarController.swift */,
 			);
@@ -147,6 +158,7 @@
 		445EAD0D203EA66800C051B7 /* 首页 */ = {
 			isa = PBXGroup;
 			children = (
+				44820D382054AE1100CEEC51 /* UIPopViewCV */,
 				445EAD0E203EA66800C051B7 /* HomeViewController.swift */,
 				445EAD362040113200C051B7 /* home.storyboard */,
 			);
@@ -173,8 +185,19 @@
 			isa = PBXGroup;
 			children = (
 				445EAD5020410CDE00C051B7 /* UIButton+Extention.swift */,
+				44EF8AC82046A0C00065976E /* UIBarbuttonItem+Extention.swift */,
+				44EF8ACA2046A7190065976E /* TitleButton.swift */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		44820D382054AE1100CEEC51 /* UIPopViewCV */ = {
+			isa = PBXGroup;
+			children = (
+				44820D392054AE1100CEEC51 /* PopoverViewController.swift */,
+				44820D3A2054AE1100CEEC51 /* PopoverViewController.xib */,
+			);
+			path = UIPopViewCV;
 			sourceTree = "<group>";
 		};
 		44E277EB2030281000FBDE2C = {
@@ -228,6 +251,14 @@
 				44E278192030281100FBDE2C /* Info.plist */,
 			);
 			path = "微博UITests";
+			sourceTree = "<group>";
+		};
+		44EF8AC520469A4C0065976E /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+				44EF8AC620469A7B0065976E /* BaseViewController.swift */,
+			);
+			path = Visitor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -341,6 +372,7 @@
 				44E278022030281000FBDE2C /* LaunchScreen.storyboard in Resources */,
 				44E277FF2030281000FBDE2C /* Assets.xcassets in Resources */,
 				445EAD3E204011A700C051B7 /* discover.storyboard in Resources */,
+				44820D3C2054AE1100CEEC51 /* PopoverViewController.xib in Resources */,
 				445EAD16203EAF6A00C051B7 /* MainVCSettings.json in Resources */,
 				44EF8AC1204397640065976E /* Null.storyboard in Resources */,
 				445EAD3B2040118600C051B7 /* message.storyboard in Resources */,
@@ -375,7 +407,11 @@
 				445EAD0F203EA66800C051B7 /* MainTabBarController.swift in Sources */,
 				44E277F82030281000FBDE2C /* AppDelegate.swift in Sources */,
 				445EAD11203EA66800C051B7 /* MineViewController.swift in Sources */,
+				44EF8AC720469A7B0065976E /* BaseViewController.swift in Sources */,
 				445EAD12203EA66800C051B7 /* MessageViewController.swift in Sources */,
+				44820D3B2054AE1100CEEC51 /* PopoverViewController.swift in Sources */,
+				44EF8AC92046A0C00065976E /* UIBarbuttonItem+Extention.swift in Sources */,
+				44EF8ACB2046A7190065976E /* TitleButton.swift in Sources */,
 				445EAD13203EA66800C051B7 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
