@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,14 +22,14 @@
                     <connections>
                         <segue destination="Dfj-DB-S6y" kind="relationship" relationship="viewControllers" id="tWs-TH-pVe"/>
                         <segue destination="tdA-uF-CmX" kind="relationship" relationship="viewControllers" id="4tp-Tj-UEt"/>
-                        <segue destination="qaR-ne-UoW" kind="relationship" relationship="viewControllers" id="tGr-pe-Doh"/>
+                        <segue destination="INU-LO-ecl" kind="relationship" relationship="viewControllers" id="tGr-pe-Doh"/>
                         <segue destination="e9Q-Gb-8PA" kind="relationship" relationship="viewControllers" id="Xwt-XU-haO"/>
                         <segue destination="bh8-z7-4QO" kind="relationship" relationship="viewControllers" id="nyi-SZ-M3U"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S0o-mO-ydR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3801" y="1149"/>
+            <point key="canvasLocation" x="-3962" y="1207"/>
         </scene>
         <!--home-->
         <scene sceneID="gdi-Th-lgn">
@@ -50,6 +51,22 @@
             </objects>
             <point key="canvasLocation" x="-1611" y="767"/>
         </scene>
+        <!--Item-->
+        <scene sceneID="FiM-xi-zPv">
+            <objects>
+                <viewController id="INU-LO-ecl" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DNf-Ru-HFK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="o1q-0q-jUq"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" enabled="NO" title="Item" id="yKS-ry-I6p"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mZh-cM-YU3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-687" y="779"/>
+        </scene>
         <!--discover-->
         <scene sceneID="iZl-q9-KUb">
             <objects>
@@ -69,16 +86,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YyN-XX-bd0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1610" y="1494"/>
-        </scene>
-        <!--Null-->
-        <scene sceneID="gLp-a5-kFj">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Null" id="qaR-ne-UoW" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="3P7-t6-dyO"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ESn-GI-04a" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-687" y="779"/>
         </scene>
     </scenes>
     <resources>
